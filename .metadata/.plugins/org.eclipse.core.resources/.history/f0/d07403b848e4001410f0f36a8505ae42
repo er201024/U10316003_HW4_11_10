@@ -10,12 +10,12 @@ public class stack {
 		//Create a MyStack name stack
 		MyStack stack = new MyStack();
 		//The user enter five string
-		out.print("Please enter five string :");
+		out.print("請輸入五個字串:");
 		//Prompt the user to enter five string
 		for(int i = 0 ; i < 5  ; i++)
 			stack.push(input.nextLine());
 			//Print string
-			out.print(" string : ");
+			out.print(" 字串 : ");
 			//if not empty ,Print string
 			while(!stack.isEmpty())
 				out.print(stack.pop()+ " ");
